@@ -1,0 +1,76 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Light Mode Surfaces & Borders -->
+    <SolidColorBrush x:Key="AppBackgroundBrush" Color="#F3F6FA" />
+    <SolidColorBrush x:Key="CardSurfaceBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="SubtleSurfaceBrush" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="InputBackgroundBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="PopupBackgroundBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="LogBackgroundBrush" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="OverlayBackgroundBrush" Color="#CCFFFFFF" />
+
+    <SolidColorBrush x:Key="BorderBrushLight" Color="#E2E8F0" />
+    <SolidColorBrush x:Key="BorderBrushStrong" Color="#CBD5E1" />
+    <SolidColorBrush x:Key="GridLineBrush" Color="#EEF2F6" />
+    <SolidColorBrush x:Key="GridHeaderBgBrush" Color="#F8FAFC" />
+
+    <!-- Text -->
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="#0F172A" />
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="#475569" />
+    <SolidColorBrush x:Key="TextMutedBrush" Color="#64748B" />
+
+    <!-- Accents & Buttons -->
+    <SolidColorBrush x:Key="AccentPrimaryBrush" Color="#0284C7" />
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="#0369A1" />
+    <SolidColorBrush x:Key="AccentPressedBrush" Color="#075985" />
+    <SolidColorBrush x:Key="SecondaryBtnBgBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="SecondaryBtnHoverBrush" Color="#F1F5F9" />
+    <SolidColorBrush x:Key="SecondaryBtnPressedBrush" Color="#E2E8F0" />
+
+    <!-- Segmented Theme Switch -->
+    <SolidColorBrush x:Key="SegActiveBgBrush" Color="#0284C7" />
+    <SolidColorBrush x:Key="SegActiveFgBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="SegInactiveBgBrush" Color="#F1F5F9" />
+    <SolidColorBrush x:Key="SegInactiveHoverBrush" Color="#E2E8F0" />
+
+    <!-- CheckBox -->
+    <SolidColorBrush x:Key="CheckBoxBgBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="CheckBoxBorderBrush" Color="#94A3B8" />
+
+    <!-- DataGrid Active / Selected Row Highlighting -->
+    <SolidColorBrush x:Key="RowEvenBgBrush" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="RowOddBgBrush" Color="#F7FAFC" />
+    <SolidColorBrush x:Key="RowHoverBgBrush" Color="#EBF3FA" />
+    <SolidColorBrush x:Key="RowSelectedBgBrush" Color="#BAE6FD" />
+    <SolidColorBrush x:Key="RowSelectedBorderBrush" Color="#0284C7" />
+    <SolidColorBrush x:Key="RowSelectedAccentBarBrush" Color="#0284C7" />
+    <SolidColorBrush x:Key="RowSelectedFgBrush" Color="#082F49" />
+
+    <!-- Semantic Badges -->
+    <SolidColorBrush x:Key="SuccessBgBrush" Color="#ECFDF5" />
+    <SolidColorBrush x:Key="SuccessBorderBrush" Color="#A7F3D0" />
+    <SolidColorBrush x:Key="SuccessFgBrush" Color="#047857" />
+
+    <SolidColorBrush x:Key="WarningBgBrush" Color="#FFFBEB" />
+    <SolidColorBrush x:Key="WarningBorderBrush" Color="#FDE68A" />
+    <SolidColorBrush x:Key="WarningFgBrush" Color="#B45309" />
+
+    <SolidColorBrush x:Key="DangerBgBrush" Color="#FEF2F2" />
+    <SolidColorBrush x:Key="DangerBorderBrush" Color="#FECACA" />
+    <SolidColorBrush x:Key="DangerFgBrush" Color="#B91C1C" />
+
+    <SolidColorBrush x:Key="DryRunBgBrush" Color="#F0F9FF" />
+    <SolidColorBrush x:Key="DryRunBorderBrush" Color="#7DD3FC" />
+    <SolidColorBrush x:Key="DryRunFgBrush" Color="#0369A1" />
+
+    <SolidColorBrush x:Key="RemnantBgBrush" Color="#EEF2FF" />
+    <SolidColorBrush x:Key="RemnantBorderBrush" Color="#A5B4FC" />
+    <SolidColorBrush x:Key="RemnantFgBrush" Color="#4338CA" />
+
+    <!-- ScrollBar -->
+    <SolidColorBrush x:Key="ScrollBarTrackBrush" Color="#F1F5F9" />
+    <SolidColorBrush x:Key="ScrollBarThumbBrush" Color="#CBD5E1" />
+    <SolidColorBrush x:Key="ScrollBarThumbHoverBrush" Color="#94A3B8" />
+
+</ResourceDictionary>

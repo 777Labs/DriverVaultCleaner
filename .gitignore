@@ -1,0 +1,13 @@
+# Build & Output artifacts
+[Bb]in/
+[Oo]bj/
+publish/
+.vs/
+.vscode/
+*.user
+*.suo
+*.tmp
+*.log
+TestResults/
+DriverBackups/
+DriverVaultBackups/

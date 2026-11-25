@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\..\assets\app.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <AssemblyName>DriverVaultCleaner</AssemblyName>
+    <RootNamespace>DriverVaultCleaner</RootNamespace>
+    <Product>DriverVault Cleaner</Product>
+    <Title>DriverVault Cleaner</Title>
+    <Version>1.0.0</Version>
+    <PackageVersion>1.0.0</PackageVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Authors>777 Labs</Authors>
+    <Company>777 Labs</Company>
+    <Description>Windows サードパーティ製ドライバーの一覧確認・削除前バックアップ・安全削除ユーティリティ</Description>
+    <Copyright>Copyright (C) 2026 777 Labs</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\assets\app.ico" Link="Assets\app.ico" />
+  </ItemGroup>
+
+</Project>
